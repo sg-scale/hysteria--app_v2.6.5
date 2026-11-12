@@ -1,8 +1,6 @@
 module github.com/apernet/hysteria/core/v2
 
-go 1.23
-
-toolchain go1.25.1
+go 1.26.0
 
 require (
 	github.com/apernet/quic-go v0.54.1-0.20251024023933-5e0818a71079
@@ -24,7 +22,7 @@ require (
 	golang.org/x/mod v0.18.0 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 	golang.org/x/tools v0.22.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
