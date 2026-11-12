@@ -1,6 +1,6 @@
 module github.com/apernet/hysteria/core/v2
 
-go 1.23
+go 1.24
 
 toolchain go1.25.1
 

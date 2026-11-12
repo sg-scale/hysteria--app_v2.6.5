@@ -1,6 +1,6 @@
 module github.com/apernet/hysteria/app/v2
 
-go 1.23
+go 1.24
 
 toolchain go1.25.1
 
@@ -12,7 +12,7 @@ require (
 	github.com/caddyserver/certmagic v0.17.2
 	github.com/libdns/cloudflare v0.1.1
 	github.com/libdns/duckdns v0.2.0
-	github.com/libdns/gandi v1.0.3
+	github.com/libdns/gandi v1.2.1
 	github.com/libdns/godaddy v1.0.3
 	github.com/libdns/namedotcom v0.3.3
 	github.com/libdns/vultr v1.0.0
@@ -45,7 +45,7 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/klauspost/cpuid/v2 v2.1.1 // indirect
-	github.com/libdns/libdns v0.2.2 // indirect
+	github.com/libdns/libdns v1.1.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/miekg/dns v1.1.59 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
