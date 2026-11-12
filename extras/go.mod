@@ -1,6 +1,6 @@
 module github.com/apernet/hysteria/extras/v2
 
-go 1.23
+go 1.25.0
 
 toolchain go1.25.1
 
@@ -9,12 +9,12 @@ require (
 	github.com/apernet/quic-go v0.54.1-0.20251024023933-5e0818a71079
 	github.com/database64128/tfo-go/v2 v2.2.2
 	github.com/hashicorp/golang-lru/v2 v2.0.5
-	github.com/miekg/dns v1.1.59
+	github.com/miekg/dns v1.1.73
 	github.com/refraction-networking/utls v1.6.6
 	github.com/stretchr/testify v1.9.0
 	github.com/txthinking/socks5 v0.0.0-20230325130024-4230056ae301
-	golang.org/x/crypto v0.26.0
-	golang.org/x/net v0.28.0
+	golang.org/x/crypto v0.54.0
+	golang.org/x/net v0.57.0
 	google.golang.org/protobuf v1.34.1
 )
 
@@ -32,11 +32,11 @@ require (
 	github.com/txthinking/runnergroup v0.0.0-20210608031112-152c7c4432bf // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // indirect
-	golang.org/x/mod v0.18.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
-	golang.org/x/text v0.17.0 // indirect
-	golang.org/x/tools v0.22.0 // indirect
+	golang.org/x/mod v0.38.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
+	golang.org/x/tools v0.48.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
