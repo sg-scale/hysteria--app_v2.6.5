@@ -1,15 +1,13 @@
 module github.com/apernet/hysteria/core/v2
 
-go 1.23
-
-toolchain go1.25.1
+go 1.26.0
 
 require (
 	github.com/apernet/quic-go v0.54.1-0.20251024023933-5e0818a71079
 	github.com/stretchr/testify v1.9.0
 	go.uber.org/goleak v1.2.1
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
-	golang.org/x/time v0.5.0
+	golang.org/x/time v0.16.0
 )
 
 require (
